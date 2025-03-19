@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Gabrielmgb.github.io/formulario-multistep-typescript",
   "name": "21-formulario-multistep-react-typescript",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",

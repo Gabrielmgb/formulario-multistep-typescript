@@ -3,7 +3,7 @@ type UserProps = {
     name: string;
     email: string;
   };
-  updateFieldHandler: (key: string, value: string ) => void;
+  updateFieldHandler: (key: string, value: string) => void;
 };
 
 const UserForm = ({ data, updateFieldHandler }: UserProps) => {

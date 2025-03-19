@@ -7,7 +7,7 @@ type stepsProps = {
   currentStep: number;
 };
 
-const Steps = ({ currentStep }) => {
+const Steps = ({ currentStep }: stepsProps) => {
   return (
     <div className="steps">
       <div className="step active">
